@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Efraín Hernández</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Revisar esta sección, hay un elemento que falta ponerle display:none -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+
+            <header>
+
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#acercademi">Acerca de mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+
+                <div class="logo">
+                    E <span class="color">H</span>
+                </div>
+                
+            </header>
+
+            <div class="info">
+                <h1>Efraín Hernández</h1>
+                <h2>Técnico en Mecanografía Computarizada</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/efrain.hernandezquintero"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=wtqoxw5191h5&utm_content=ovy5ad6"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/?midToken=AQG6A248Qz_09g&midSig=2i-84Lna-heXc1&trk=eml-email_network_conversations_01-header-0-home_glimmer&trkEmail=eml-email_network_conversations_01-header-0-home_glimmer-null-5z9376~lu7hwvc7~11-null-null&eid=5z9376-lu7hwvc7-11&otpToken=MTEwMzFmZTUxNjJmY2RjZGI0MjQwNGVkNDcxZmUzYjQ4YmNiZDg0MDk4YWE4ZTYxNzBjNzA5Njk0YzVjNTRmYWYwZDRkZmFiNzdlNGU3ZTg3N2YyZDBhMjM0ZDQxZTBlNmNhZDM4MzRlNTFhOGY3Y2UyNjcxMywxLDE%3D"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="foto"><img src="assets/img/fotocurriculum.jpg" alt=""></div>
+
+        </div>
+    </section>
+
+    <!-- acerca de mi -->
+    <section class="acercademi" id="acercademi">
+        <div class="contenido-seccion">
+           <h2 class="titulo-seccion">Acerca de mí</h2>
+           <h3>Detalles Personales</h3>
+            <p class="especial">Soy estudiante de Desarrollo Web/Programación</p>
+            <p>Me dedico al estudio de  las tecnologías para el Desarrollo Web basadas en HTML5 y CSS3, Lógica de Programación.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Perfil</span>
+                    <p>Tengo una formación de familia, con valores tradicionales: Respetuoso, honesto. Cuento con un alto logro en los objetivos y trabajo en equipo.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p>Alem 1385 - Rosario - Santa Fé</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>El estudio y actualización en las tecnologías informáticas.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Sección Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <h3>Me especializo en transcripción de documentos, tipeo de palabras de forma rápida y con buena ortografía</h3>
+
+            <div class="fila">
+
+                <div class="col">
+                    <span>Mecanografía computarizada</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="meca">
+                            <!-- mediante javasript generaremos luego barritas con clase e -->
+                           
+                        </div>
+                        <span>95%</span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <span>HTML5/CSS3</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            <!-- mediante javasript generaremos luego barritas con clase e -->
+                           
+                        </div>
+                        <span>63%</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="fila">
+
+                <div class="col">
+                    <span>Office Word/Excel/Power Point</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="office">
+                            <!-- mediante javasript generaremos luego barritas con clase e -->
+                            
+                          
+                        </div>
+                        <span>80%</span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <span>Lógica de Programación</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="logica">
+                            <!-- mediante javasript generaremos luego barritas con clase e -->
+                            
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION RESUMEN -->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi preparación</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>1998 - 2000</h3>                                
+                            </td>
+                            <td rowspan="2" class="descripcion">Estudio Técnico de Digitación de Datos, Redacción y Ortografía, velocidad de transcripción de palabras. </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Técnico en Mecanografía	Computarizada </h4>
+                                <p>Instituto Nacional de Cooperación Educativa</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2011</h3>                                
+                            </td>
+                            <td rowspan="2" class="descripcion">Windows, Manejo de Office (Word, Excel, PowerPoint)</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Operador de Micros </h4>
+                                <p>Instituto Simón Bolívar</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                      
+                     <table>
+                        <tr>
+                             <td class="datos">
+                                    <h3>2022 - 2024</h3>
+                             </td>
+                             <td rowspan="2" class="descripcion">Html5, CSS3, Lógica de Programación.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Desarrollo Web </h4>
+                                <p>w3school.com</p>
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+                 
+                </div>
+
+           
+
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+
+                        <tr>
+                            <td class="datos">
+                                <h3>2000 - 2002</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">Transcripción al sistema de gestión de datos de los alumnos, elaboración de cronogramas y tablas de asistencia.</td>
+                        </tr>                    
+                        <tr>
+                            <td>
+                                <h4>Mecanógrafo Computarizado </h4>
+                                <p>Colegio "Auguste Comte" </p>
+                            </td>
+                        </tr>
+
+                    </table>
+
+
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2009 - 2011</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">Carga de datos al sistema de gestión, transcripción de rutagramas.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Mecanógrafo Computarizado </h4>
+                                <p>C.I.C.A.P</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2024</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Mi Primer Proyecto Web </h4>
+                                <p>https://efrainhq.github.io/PagWebMargarita/index.html</p>
+                            </td>
+                        </tr>
+                    </table>             
+                
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">
+                Contacto
+            </h2>
+            <div class="fila">
+
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Celular
+                    </h2>
+                    <span class="info-contacto">+54-341-7450983</span>
+                </div>
+
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo Electrónico
+                    </h2>
+                    <span class="info-contacto">efrain.camce@gmail.com</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
